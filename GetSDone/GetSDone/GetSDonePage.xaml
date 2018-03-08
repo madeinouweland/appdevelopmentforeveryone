@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:GetSDone" x:Class="GetSDone.GetSDonePage">
+    <StackLayout Orientation="Horizontal">
+        <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+            <Entry HorizontalTextAlignment="Center" FontSize="21" x:Name="Todo1" Focused="OnFocus" BackgroundColor="Fuchsia" VerticalOptions="FillAndExpand"></Entry>
+            <Entry HorizontalTextAlignment="Center" FontSize="21" x:Name="Todo2" Focused="OnFocus" BackgroundColor="Gray" VerticalOptions="FillAndExpand"></Entry>
+            <Entry HorizontalTextAlignment="Center" FontSize="21" x:Name="Todo3" Focused="OnFocus" BackgroundColor="Lime" VerticalOptions="FillAndExpand"></Entry>
+        </StackLayout>
+        <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+            <Entry HorizontalTextAlignment="Center" FontSize="21" x:Name="Todo4" Focused="OnFocus" BackgroundColor="Yellow" VerticalOptions="FillAndExpand"></Entry>
+            <Entry HorizontalTextAlignment="Center" FontSize="21" x:Name="Todo5" Focused="OnFocus" BackgroundColor="Red" VerticalOptions="FillAndExpand"></Entry>
+            <Entry HorizontalTextAlignment="Center" FontSize="21" x:Name="Todo6" Focused="OnFocus" BackgroundColor="Blue" VerticalOptions="FillAndExpand"></Entry>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

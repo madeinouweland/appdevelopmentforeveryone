@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{EE7233D2-025C-4351-BE8A-2ECF4246F9DD}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="GetSDone/GetSDonePage.xaml.cs">
+    <Files>
+      <File FileName="GetSDone/App.xaml.cs" Line="11" Column="17" />
+      <File FileName="GetSDone/GetSDonePage.xaml.cs" Line="12" Column="1" />
+      <File FileName="GetSDone/GetSDonePage.xaml" Line="12" Column="33" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.GetSDone.Droid PreferredExecutionTarget="Android.Android_Accelerated_Nougat" AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.GetSDone.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.01AABEF8-D291-431F-B4C1-B03E0CAA883C">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.GetSDone.iOS>
+</Properties>

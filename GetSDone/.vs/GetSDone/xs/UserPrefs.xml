@@ -1,9 +1,12 @@
 ﻿<Properties StartupConfiguration="{EE7233D2-025C-4351-BE8A-2ECF4246F9DD}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="GetSDone/GetSDonePage.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="GetSDone/TodoScheme.cs">
     <Files>
       <File FileName="GetSDone/App.xaml.cs" Line="11" Column="17" />
-      <File FileName="GetSDone/GetSDonePage.xaml.cs" Line="12" Column="1" />
-      <File FileName="GetSDone/GetSDonePage.xaml" Line="12" Column="33" />
+      <File FileName="GetSDone/GetSDonePage.xaml.cs" Line="38" Column="34" />
+      <File FileName="GetSDone/GetSDonePage.xaml" Line="21" Column="1" />
+      <File FileName="iOS/Main.cs" Line="17" Column="1" />
+      <File FileName="iOS/AppDelegate.cs" Line="19" Column="1" />
+      <File FileName="GetSDone/TodoScheme.cs" Line="28" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
@@ -13,7 +16,7 @@
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.GetSDone.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.01AABEF8-D291-431F-B4C1-B03E0CAA883C">
+  <MonoDevelop.Ide.ItemProperties.GetSDone.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.A5D8F9B4-C5E0-4D7D-A917-C1E493AA28B0">
     <MonoDevelop.MacDev.AppleDevelopmentTeam />
   </MonoDevelop.Ide.ItemProperties.GetSDone.iOS>
 </Properties>

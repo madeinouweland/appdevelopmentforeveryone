@@ -5,60 +5,39 @@ namespace GetSDone
 {
     public partial class GetSDonePage : ContentPage
     {
-        void OnFocus(object sender, Xamarin.Forms.FocusEventArgs e)
+        private Color _defaultColor = Color.LightGray;
+
+        void Handle_Focused(object sender, Xamarin.Forms.FocusEventArgs e)
         {
             var entry = sender as Entry;
+            ColorEntry(entry);
 
-            if (entry == Todo1)
-            {
-                entry.BackgroundColor = _colors[0];
-            }
-            if (entry == Todo2)
-            {
-                entry.BackgroundColor = _colors[1];
-            }
-            if (entry == Todo3)
-            {
-                entry.BackgroundColor = _colors[2];
-            }
-            if (entry == Todo4)
-            {
-                entry.BackgroundColor = _colors[3];
-            }
-            if (entry == Todo5)
-            {
-                entry.BackgroundColor = _colors[4];
-            }
-            if (entry == Todo6)
-            {
-                entry.BackgroundColor = _colors[5];
-            }
         }
 
+        private void ColorEntry(Entry entry){
+           // var index = _todos.IndexOf(entry.Text);
+        }
 
-        private List<Color> _colors = new List<Color>();
+        private List<Todo> _todos = new List<Todo>();
 
         public GetSDonePage()
         {
             InitializeComponent();
 
-            Todo1.BackgroundColor = Color.LightGray;
-            Todo2.BackgroundColor = Color.LightGray;
-            Todo3.BackgroundColor = Color.LightGray;
-            Todo4.BackgroundColor = Color.LightGray;
-            Todo5.BackgroundColor = Color.LightGray;
-            Todo6.BackgroundColor = Color.LightGray;
+            CreateDummyData();
 
-            _colors.Add(Color.Yellow);
-            _colors.Add(Color.MistyRose);
-            _colors.Add(Color.Goldenrod);
-            _colors.Add(Color.CornflowerBlue);
-            _colors.Add(Color.Green);
-            _colors.Add(Color.IndianRed);
-            _colors.Add(Color.Orange);
-            _colors.Add(Color.MediumPurple);
+            todoListView.ItemsSource = _todos;
 
 
+        }
+
+        private void CreateDummyData(){
+            _todos.Add(new Todo("Buy milk", Color.White, Color.Blue));
+            _todos.Add(new Todo("Walk the dog", Color.White, Color.Green));
+            _todos.Add(new Todo("", Color.Black, Color.LightPink));
+            _todos.Add(new Todo("", Color.Black, Color.LightSeaGreen));
+            _todos.Add(new Todo("Take a nap", Color.Yellow, Color.DarkKhaki));
+            _todos.Add(new Todo("Take another nap", Color.LightCoral, Color.DarkMagenta));
         }
     }
 }

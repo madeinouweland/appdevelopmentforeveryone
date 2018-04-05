@@ -40,6 +40,12 @@ namespace GetSDone
             }
         }
 
+        public Color BackgroundColorForReal {
+            get {
+                return _backgroundColor;
+            }
+        }
+
         public event PropertyChangedEventHandler PropertyChanged;
     }
 }

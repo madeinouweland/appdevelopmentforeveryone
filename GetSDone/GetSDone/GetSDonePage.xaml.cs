@@ -20,24 +20,34 @@ namespace GetSDone
 
         private List<Todo> _todos = new List<Todo>();
 
+        public List<Todo> Todos {
+            get {
+                return _todos;
+            }
+            set {
+                _todos = value;
+                todoListView.ItemsSource = _todos;
+            }
+        }
+
         public GetSDonePage()
         {
             InitializeComponent();
 
-            CreateDummyData();
+            CreateInitialData();
 
             todoListView.ItemsSource = _todos;
 
 
         }
 
-        private void CreateDummyData(){
-            _todos.Add(new Todo("Buy milk", Color.White, Color.Blue));
-            _todos.Add(new Todo("Walk the dog", Color.White, Color.Green));
+        private void CreateInitialData(){
+            _todos.Add(new Todo("", Color.White, Color.Blue));
+            _todos.Add(new Todo("", Color.White, Color.Green));
             _todos.Add(new Todo("", Color.Black, Color.LightPink));
             _todos.Add(new Todo("", Color.Black, Color.LightSeaGreen));
-            _todos.Add(new Todo("Take a nap", Color.Yellow, Color.DarkKhaki));
-            _todos.Add(new Todo("Take another nap", Color.LightCoral, Color.DarkMagenta));
+            _todos.Add(new Todo("", Color.Yellow, Color.DarkKhaki));
+            _todos.Add(new Todo("", Color.LightCoral, Color.DarkMagenta));
         }
     }
 }

@@ -1,8 +1,8 @@
-# appdevelopmentforeveryone
+# App Development For Everyone
 
 App developement for everyone is a free training, organised though meetups in Berlin. During this training you learn how to program and create apps, games and websites with all possible technology.
 
-![appdev](http://loekvandenouweland.com/assets/appdev/appdev2.png)
+![appdev](http://github.com/madeinouweland/appdevelopmentforeveryone/blob/master/logo.png)
 
 The training is focused on beginners so we start with explaining programming languages, platforms, variables, loops, datatypes, statements and expressions.
 

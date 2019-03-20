@@ -6,16 +6,9 @@ App developement for everyone is a free training, organised through meetups in B
 
 The training is focused on beginners so we start with explaining programming languages, platforms, variables, loops, datatypes, statements and expressions.
 
-## Projects
+## Current project: Building a breakout game with Javscript
 
-- GetSDone is a cross platform todo app, made with Xamarin, C# and Visual Studio.
-- Breakout is a game, built with Javascript and P5JS.
-
-<img src="https://github.com/madeinouweland/appdevelopmentforeveryone/blob/master/breakout.gif" width="400" >
-
-## Training material
-
-In this github repo you will find training material, demos and labs.
+<img src="https://github.com/madeinouweland/appdevelopmentforeveryone/blob/master/breakout/breakout.gif" width="400" >
 
 ## More info
 
